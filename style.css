@@ -1,0 +1,47 @@
+body {
+  background: antiquewhite;
+  width: 960px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-height: 440px;
+  margin-left: 2rem;
+}
+
+article p {
+  overflow-y: scroll;
+}
+
+button {
+}
+
+button:hover {
+}
+
+footer {
+  background-color: rgb(241, 207, 163);
+  min-height: 200px;
+  margin-top: 2rem;
+}
